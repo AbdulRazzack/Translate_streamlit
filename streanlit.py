@@ -1,7 +1,5 @@
 # Load model directly
 import streamlit as st
-import pandas as pd
-import numpy as np
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 tokenizer = AutoTokenizer.from_pretrained("google-t5/t5-base")
